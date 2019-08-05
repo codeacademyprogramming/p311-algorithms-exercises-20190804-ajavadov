@@ -28,11 +28,11 @@ if (llist[2] % 2 === 0 && llist[2] % 4 === 0) {
     list3.push(llist[2]);
   }
 }
-if (newllist.length > 0)
+if (newllist.length > 0) {
   alert(
     newllist.join(" , ") + ", hem 2-ye hem 4-e hem de 8-e qaliqsiz bolunur."
   );
-else "hec 2 ve 4e de bolunmur";
+} else alert("hec 2 ve 4e de bolunmur");
 if (list3.length > 0) {
   alert(list3.join(" , ") + " ise, 2-ye ve 4-e bolunur amma 8-e yox.");
 }
